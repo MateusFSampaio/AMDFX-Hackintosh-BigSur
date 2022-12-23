@@ -22,6 +22,14 @@
 				<key>Path</key>
 				<string>SSDT-EC-USBX-DESKTOP.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-GPU-DISABLE.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-GPU-DISABLE.aml</string>
+			</dict>
 		</array>
 		<key>Delete</key>
 		<array>
@@ -1302,6 +1310,29 @@
 		<true/>
 		<key>CustomMemory</key>
 		<false/>
+		<key>Generic</key>
+		<dict>
+			<key>AdviseFeatures</key>
+			<false/>
+			<key>MLB</key>
+			<string>C02831401J9J0DX8C</string>
+			<key>MaxBIOSVersion</key>
+			<false/>
+			<key>ProcessorType</key>
+			<integer>0</integer>
+			<key>ROM</key>
+			<data>zERjXnGT</data>
+			<key>SpoofVendor</key>
+			<true/>
+			<key>SystemMemoryStatus</key>
+			<string>Auto</string>
+			<key>SystemProductName</key>
+			<string>iMac18,2</string>
+			<key>SystemSerialNumber</key>
+			<string>C02X56ZUJ1G5</string>
+			<key>SystemUUID</key>
+			<string>DBD25133-93A6-4954-9F75-174A9CC07546</string>
+		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
 		<key>UpdateNVRAM</key>
